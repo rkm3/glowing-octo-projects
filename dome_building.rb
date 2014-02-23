@@ -23,8 +23,7 @@ def polar2cartesian_rad(r, theta, phi)
   x = r * Math.sin(theta) * Math.cos(phi)
   y = r * Math.sin(theta) * Math.sin(phi)
   z = r * Math.cos(theta)
-  # [x,y,z]
-  [z,y,x]
+  [x,y,z]
 end
 
 def polar2cartesian(r, theta, phi)
